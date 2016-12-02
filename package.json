@@ -1,19 +1,15 @@
 {
-  "name": "PROJECT TITLE",
-  "description": "PROJECT DESCRIPTION",
-  "homepage": "PROJECT URL",
+  "name": "PROJECT_TITLE",
+  "description": "PROJECT_DESCRIPTION",
+  "homepage": "HTTP://WWW.EXAMPLE.COM",
   "version": "0.0.1",
-  "license": "PROJECT LICENSE",
+  "license": "MIT",
   "author": {
-    "name": "AUTHOR NAME",
-    "email": "AUTHOR EMAIL",
-    "url": "AUTHOR URL"
+    "name": "AUTHOR_NAME",
+    "email": "AUTHOR@EMAIL.COM",
+    "url": "HTTP://WWW.EXAMPLE.COM"
   },
   "contributors": [
-    {
-      "name": "",
-      "email": ""
-    },
     {
       "name": "",
       "email": ""
@@ -21,14 +17,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "PROJECT GIT URL"
+    "url": "HTTP://WWW.EXAMPLE.COM"
   },
   "keywords": [
-    "COMMA SEPARATED LIST OF KEYWORDS"
+    "COMMA_SEPARATE_LIST_OF_KEYWORDS"
   ],
   "bugs": {
-    "url": "URL TO FILE BUGS",
-    "email": "EMAIL ADDRESS TO FILE BUGS"
+    "url": "HTTP://WWW.EXAMPLE.COM",
+    "email": "EMAIL@EXAMPLE.COM"
   },
   "devDependencies": {
     "accessible-html-content-patterns": "^0.1.0",
@@ -109,6 +105,8 @@
     "clean-deploy-styles": "gulp clean-deploy-styles",
     "clean-screenshots": "gulp clean-screenshots",
     "browsersync-build": "gulp browsersync-build",
-    "browsersync-test": "gulp browsersync-test"
+    "browsersync-test": "gulp browsersync-test",
+    "config-make": "gulp config-make",
+    "config-apply": "gulp config-apply"
   }
 }
